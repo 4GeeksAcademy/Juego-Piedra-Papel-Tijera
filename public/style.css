@@ -1,0 +1,111 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box; /* Asegura que padding y bordes no causen overflow */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden; /* Evita scroll horizontal */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    max-width: 1200px; /* Limita el ancho máximo */
+}
+
+/* Estilos para la sección de "you" */
+.you {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+select {
+    font-size: 80px; /* Hace el select más grande */
+    padding: 10px;
+    width: 70%;
+    appearance: none;
+    border-radius: 15px;
+}
+
+/* Estilos para la sección de "opponent" */
+.opponent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+/* Estilos del slider */
+.slider {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    padding-top: 15%;
+    margin: 0;
+    width: 300%;
+    animation: cambio 6s infinite ease-in-out;
+    text-align: center;
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider img {
+    width: 70%;
+    object-fit: contain;
+}
+
+@keyframes cambio {
+    0% { margin-left: 0; }
+    33.33% { margin-left: 0; }
+    33.34% { margin-left: -100%; }
+    66.66% { margin-left: -100%; }
+    66.67% { margin-left: -200%; }
+    100% { margin-left: -200%; }
+}
+
+/* Estilos para el botón de lucha */
+.fight-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+
+#fight {
+    font-size: 24px;
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#fight:hover {
+    background-color: #e64a19;
+}

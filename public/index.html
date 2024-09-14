@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego PPT - Alejandro</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="you">
+            <h2 class="you-title">Tu elección</h2>
+            <select name="select">
+                <option value="stone">🪨</option>
+                <option value="paper">🧻</option>
+                <option value="scissors">✂️</option>
+            </select>
+        </div>
+
+        <div class="opponent">
+            <h2 class="opponent-title">Oponente</h2>
+            <div class="slider">
+                <ul>
+                    <li><img src="https://em-content.zobj.net/source/apple/271/rock_1faa8.png" alt="stone"></li>
+                    <li><img src="https://em-content.zobj.net/source/apple/325/roll-of-paper_1f9fb.png" alt="paper"></li>
+                    <li><img src="https://em-content.zobj.net/source/apple/118/black-scissors_2702.png" alt="scissors"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="fight-container">
+        <button id="fight">Luchar</button>
+    </div>
+
+    <script src="./apps.js"></script>
+</body>
+</html>
