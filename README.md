@@ -1,6 +1,6 @@
 # 🪨🧻✂️ Juego de Piedra, Papel o Tijera
 
-Este es un sencillo juego de **Piedra, Papel o Tijera** implementado en HTML, CSS y JavaScript. El objetivo es jugar contra un oponente controlado por la computadora que hace una elección aleatoria.
+Este es un sencillo juego de **Piedra, Papel o Tijera** implementado en HTML, CSS y JavaScript. El objetivo es jugar contra un oponente controlado por el ordenador que hace una elección aleatoria.
 
 ## 🚀 Funcionalidades
 
@@ -14,7 +14,13 @@ Este es un sencillo juego de **Piedra, Papel o Tijera** implementado en HTML, CS
 
 ## 💻 Cómo jugar
 
-1. Clona o descarga este repositorio en tu computadora.
+1. Clona o descarga este repositorio en tu ordenador.
    
    ```bash
-   git clone https://github.com/tu-usuario/Juego-Piedra-Papel-Tijera.git
+   git clone https://github.com/4GeeksAcademy/Juego-Piedra-Papel-Tijera.git
+
+📦Juego-Piedra-Papel-Tijera
+ ┣ 📜 index.html       --> Estructura principal del juego
+ ┣ 📜 style.css        --> Estilos del juego
+ ┣ 📜 apps.js          --> Lógica y funcionamiento del juego
+ ┣ 📜 README.md        --> Documentación del proyecto
