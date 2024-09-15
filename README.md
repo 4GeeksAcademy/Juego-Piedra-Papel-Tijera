@@ -25,12 +25,12 @@ Este es un sencillo juego de **Piedra, Papel o Tijera** implementado en HTML, CS
 5. Si deseas jugar otra ronda, puedes elegir otra opción o hacer clic en el botón Reset para reiniciar el juego.
 
 ## ⚙️ Tecnologías utilizadas
-HTML5: Para la estructura del juego.
-CSS3: Para los estilos y diseño visual.
-JavaScript: Para la lógica del juego y las interacciones con el usuario.
+HTML5: Para la estructura del juego. <br>
+CSS3: Para los estilos y diseño visual. <br>
+JavaScript: Para la lógica del juego y las interacciones con el usuario. <br>
 
 ## 📝 Reglas del juego
-Piedra vence a Tijeras.
-Tijeras vence a Papel.
-Papel vence a Piedra.
-Si ambos jugadores eligen la misma opción, hay un empate.
+Piedra vence a Tijeras. <br>
+Tijeras vence a Papel. <br>
+Papel vence a Piedra. <br>
+Si ambos jugadores eligen la misma opción, hay un empate. <br>
