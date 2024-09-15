@@ -64,7 +64,7 @@ select {
     padding-top: 15%;
     margin: 0;
     width: 300%;
-    animation: cambio 6s infinite ease-in-out;
+    animation: cambio 4s infinite ease-in-out;
     text-align: center;
 }
 
@@ -76,6 +76,15 @@ select {
 .slider img {
     width: 70%;
     object-fit: contain;
+}
+
+.result img {
+    display: flex;
+    padding-top: 15%;
+    margin: 0;
+    margin-left: 15%;
+    width: 70%;
+    text-align: center;
 }
 
 @keyframes cambio {
@@ -108,4 +117,28 @@ select {
 
 #fight:hover {
     background-color: #e64a19;
+}
+
+#reset {
+    font-size: 24px;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: #4db64b;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#reset:hover {
+    background-color: #306e2f;
+}
+
+#message{
+    font-weight: bold;
+}
+
+.disguise{
+    display: none !important;
 }

@@ -10,27 +10,35 @@
     <div class="container">
         <div class="you">
             <h2 class="you-title">Tu elección</h2>
-            <select name="select">
-                <option value="stone">🪨</option>
-                <option value="paper">🧻</option>
-                <option value="scissors">✂️</option>
+            <select name="select" id="select">
+                <option value="0">🪨</option>
+                <option value="1">🧻</option>
+                <option value="2">✂️</option>
             </select>
         </div>
 
         <div class="opponent">
             <h2 class="opponent-title">Oponente</h2>
             <div class="slider">
-                <ul>
+                <ul id="choose">
                     <li><img src="https://em-content.zobj.net/source/apple/271/rock_1faa8.png" alt="stone"></li>
                     <li><img src="https://em-content.zobj.net/source/apple/325/roll-of-paper_1f9fb.png" alt="paper"></li>
                     <li><img src="https://em-content.zobj.net/source/apple/118/black-scissors_2702.png" alt="scissors"></li>
                 </ul>
+                <div class="result">
+                    <img src="https://em-content.zobj.net/source/apple/271/rock_1faa8.png" alt="stone" id="stone">
+                    <img src="https://em-content.zobj.net/source/apple/325/roll-of-paper_1f9fb.png" alt="paper" id="paper">
+                    <img src="https://em-content.zobj.net/source/apple/118/black-scissors_2702.png" alt="scissors" id="scissors">
+                </div>
             </div>
         </div>
     </div>
 
+    <p id="message"></p>
+
     <div class="fight-container">
-        <button id="fight">Luchar</button>
+        <button id="fight" onclick="game()">Luchar</button>
+        <button id="reset" onclick="reload()">Reset</button>
     </div>
 
     <script src="./apps.js"></script>
