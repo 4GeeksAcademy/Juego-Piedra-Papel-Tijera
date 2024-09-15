@@ -18,9 +18,19 @@ Este es un sencillo juego de **Piedra, Papel o Tijera** implementado en HTML, CS
    
    ```bash
    git clone https://github.com/4GeeksAcademy/Juego-Piedra-Papel-Tijera.git
+   
+2. Abre el archivo index.html en tu navegador web favorito.
+3. Selecciona tu opción en el menú desplegable.
+4. Haz clic en el botón Luchar para ver si ganas, empatas o pierdes contra el oponente.
+5. Si deseas jugar otra ronda, puedes elegir otra opción o hacer clic en el botón Reset para reiniciar el juego.
 
-📦Juego-Piedra-Papel-Tijera
- ┣ 📜 index.html       --> Estructura principal del juego
- ┣ 📜 style.css        --> Estilos del juego
- ┣ 📜 apps.js          --> Lógica y funcionamiento del juego
- ┣ 📜 README.md        --> Documentación del proyecto
+## ⚙️ Tecnologías utilizadas
+HTML5: Para la estructura del juego.
+CSS3: Para los estilos y diseño visual.
+JavaScript: Para la lógica del juego y las interacciones con el usuario.
+
+## 📝 Reglas del juego
+Piedra vence a Tijeras.
+Tijeras vence a Papel.
+Papel vence a Piedra.
+Si ambos jugadores eligen la misma opción, hay un empate.
